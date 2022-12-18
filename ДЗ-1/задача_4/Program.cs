@@ -3,6 +3,7 @@
 2, 3, 7 -> 7
 44 5 78 -> 78
 22 3 9 -> 22 */
+
 Console.Write("Введите первое число: ");
  double firstNumber = Convert.ToDouble(Console.ReadLine());
  Console.Write("Введите второе число: ");
@@ -14,5 +15,5 @@ Console.Write("Введите первое число: ");
     max = secondNumber;
 if (max < thirdNumber)
     max = thirdNumber;
-    
+
  Console.WriteLine($"максимальное из трёх чисел: {firstNumber}; {secondNumber}; {thirdNumber}; >> {max}");
